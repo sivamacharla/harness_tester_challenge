@@ -42,6 +42,13 @@ public:
   void set_pd_inputs(uint64_t pins);
   void set_pu_inputs(uint64_t pins);
   void set_output(uint64_t pins, uint64_t values);
+
+  // True if any I2C transaction has failed since the last begin()/clear_error().
+  bool had_error() { return error; }
+  void clear_error() { error = false; }
+
+private:
+  bool error = false;
 };
 
 #endif

@@ -70,6 +70,12 @@ void set_status(Status s) {
   digitalWrite(PIN_LED_G, !(s == GOOD));
 }
 
+// Harness pin i maps to expander bit i for i < 20, but bits 20-23 are the
+// expander's fixed SCL/SDA pins (not GPIO), so pins 20-39 sit 4 bits higher.
+uint64_t harness_pin_bit(int i) {
+  return 1ULL << (i < 20 ? i : i + 4);
+}
+
 void process_nmea(char *buf, int len) {
   buf[len] = 0;
   if (strncmp(buf, "$GPRMC", 6) == 0) {
@@ -103,6 +109,8 @@ void setup() {
   set_status(BUSY);
   pinMode(PIN_BTN_TEST, INPUT);
   pinMode(PIN_UBX_TIMEPULSE, INPUT);
+  pinMode(PIN_UBX_SAFEBOOT, OUTPUT);
+  pinMode(PIN_UBX_RST_N, OUTPUT);
   digitalWrite(PIN_UBX_SAFEBOOT, LOW);
   digitalWrite(PIN_UBX_RST_N, HIGH);
 
@@ -117,9 +125,14 @@ void setup() {
 
 char nmea_buf[64];
 int nmea_idx = 0;
+bool btn_was_pressed = false;
 void loop() {
   // Process incoming ublox messages
   while (UBX_SERIAL.available()) {
+    if (nmea_idx >= (int)sizeof(nmea_buf) - 1) {
+      // Sentence too long / missing terminator: drop it and start over.
+      nmea_idx = 0;
+    }
     nmea_buf[nmea_idx++] = UBX_SERIAL.read();
     if (nmea_buf[nmea_idx - 1] == '\n' || nmea_buf[nmea_idx - 1] == '\r') {
       process_nmea(nmea_buf, nmea_idx);
@@ -134,14 +147,19 @@ void loop() {
   if (!time_fixed) return;
   set_status(GOOD);
 
-  // Start testing only if the button is pressed
-  if (digitalRead(PIN_BTN_TEST) == LOW) return;
+  // Start testing only on the press (rising) edge, once per press, not every loop() while held
+  bool btn_pressed = digitalRead(PIN_BTN_TEST) == LOW;
+  if (!btn_pressed || btn_was_pressed) {
+    btn_was_pressed = btn_pressed;
+    return;
+  }
+  btn_was_pressed = btn_pressed;
   set_status(BUSY);
 
   // Test harness by checking the connectivity of every pin
-  bool passed = false;
+  bool passed = true;
   for (int i = 0; i < NUM_HARNESS_PINS; i++) {
-    uint64_t output_mask = 1 << i;
+    uint64_t output_mask = harness_pin_bit(i);
     cy.set_output(output_mask, output_mask);
     cy.set_pd_inputs(~output_mask);
 
@@ -149,12 +167,17 @@ void loop() {
 
     // Log connections to the serial port
     DBG_SERIAL.printf("Pin %d: ", i);
-    for (int j = 0; j < NUM_HARNESS_PINS; j++) DBG_SERIAL.printf("%d", (values & (1 << j)) ? 1 : 0);
+    for (int j = 0; j < NUM_HARNESS_PINS; j++) DBG_SERIAL.printf("%d", (values & harness_pin_bit(j)) ? 1 : 0);
     DBG_SERIAL.println();
 
-    if (values == EXPECTED_CONNECTIONS[i]) {
-      passed = true;
+    if (values != EXPECTED_CONNECTIONS[i]) {
+      passed = false;
     }
+  }
+
+  if (cy.had_error()) {
+    DBG_SERIAL.println("I2C communication error during test, results may be invalid!");
+    passed = false;
   }
 
   // Show and log results

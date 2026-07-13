@@ -7,26 +7,29 @@ bool CY8C9560::begin() {
   delay(10);
   digitalWrite(CY_RST, LOW);
   delay(100);
+  digitalWrite(CY_RST, HIGH); // release RESET_N (active-low) before talking to the chip
+  delay(10);
 
   WIRE.begin();
   WIRE.setClock(100000);
 
-  return read_id() == 0x06;
+  clear_error();
+  return read_id() == 0x06 && !error;
 }
 
 uint8_t CY8C9560::read_register(uint8_t reg) {
   WIRE.beginTransmission(addr);
   WIRE.write(reg);
-  WIRE.endTransmission(false);
-  WIRE.requestFrom(addr, 1U);
+  if (WIRE.endTransmission(false) != 0) error = true;
+  if (WIRE.requestFrom(addr, 1U) != 1) error = true;
   return WIRE.read();
 }
 
 uint64_t CY8C9560::read_registers(uint8_t reg_base, uint8_t len) {
   WIRE.beginTransmission(addr);
   WIRE.write(reg_base);
-  WIRE.endTransmission(false);
-  WIRE.requestFrom(addr, len);
+  if (WIRE.endTransmission(false) != 0) error = true;
+  if (WIRE.requestFrom(addr, len) != len) error = true;
   uint64_t registers = 0;
   for (int i = 0; i < len; i++) {
     registers |= (uint64_t)WIRE.read() << (i * 8);
@@ -38,7 +41,7 @@ void CY8C9560::write_register(uint8_t reg, uint8_t data) {
   WIRE.beginTransmission(addr);
   WIRE.write(reg);
   WIRE.write(data);
-  WIRE.endTransmission();
+  if (WIRE.endTransmission() != 0) error = true;
 }
 
 void CY8C9560::write_registers(uint8_t reg_base, uint64_t data, uint8_t len) {
@@ -47,7 +50,7 @@ void CY8C9560::write_registers(uint8_t reg_base, uint64_t data, uint8_t len) {
   for (int i = 0; i < len; i++) {
     WIRE.write((uint8_t) (data >> (i * 8)));
   }
-  WIRE.endTransmission();
+  if (WIRE.endTransmission() != 0) error = true;
 }
 
 uint8_t CY8C9560::read_id() {
