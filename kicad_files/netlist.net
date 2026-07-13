@@ -1,0 +1,5804 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\sivam\\harness_tester_challenge\\kicad_files\\hardware_challenge.kicad_sch")
+		(date "2026-07-13T12:52:19")
+		(tool "Eeschema 10.0.4")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Hardware Hiring Challenge")
+				(company "comma.ai")
+				(rev "A")
+				(date "2024-05-23")
+				(source "hardware_challenge.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "AE1")
+			(value "ANT-GNSSCP-TH25L1")
+			(footprint "gnss:ANT-GNSSCP-TH25L1")
+			(description "Antenna")
+			(fields
+				(field
+					(name "Footprint") "gnss:ANT-GNSSCP-TH25L1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Antenna")
+			)
+			(libsource
+				(lib "Device")
+				(part "Antenna")
+				(description "Antenna")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "antenna")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d331c27a-f8ec-4583-8629-3ac843487cd8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "1u")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7e090f78-b962-4772-9702-ef83f7249f11")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "604ea48e-0dd7-4240-b99e-6301b6ceef89")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ef37ea8a-b8d5-4e61-a084-c195a8c78a23")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f78d5938-18e6-4936-bb1f-90ab72f7c5d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "19eb0e16-93be-4360-b340-e39ac71a72f7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "1n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22f13cfb-c00b-4b4d-bbbb-ed59dbb54437")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "10u")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d8eff4c0-5af7-46f8-853e-be87a161b0cb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "SMAJ16A")
+			(footprint "Diode_SMD:D_SMA")
+			(datasheet "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+			(description "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet") "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+				(field
+					(name "Description") "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			)
+			(libsource
+				(lib "Diode")
+				(part "SMAJ16A")
+				(description "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "unidirectional diode TVS voltage suppressor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SMA*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4695a07b-2a0d-419a-a19a-7ae28f5245f9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "PMEG10020ELR")
+			(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf")
+			(description "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:Nexperia_CFP3_SOD-123W")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf")
+				(field
+					(name "Description") "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W")
+			)
+			(libsource
+				(lib "Diode")
+				(part "PMEG10020ELR")
+				(description "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "ir diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Nexperia*CFP3*SOD?123W*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8abae166-eabc-40d9-9e6e-ad93a541ad96")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "ASMB-KTF0-0A306")
+			(footprint "LED_SMD:LED_ASMB-KTF0-0A306")
+			(description "RGB LED, anode/blue/green/red")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_ASMB-KTF0-0A306")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "RGB LED, anode/blue/green/red")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED_ABGR")
+				(description "RGB LED, anode/blue/green/red")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED RGB diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "47500599-aba2-4a32-9780-7ccf4f5bf287")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "12V INPUT")
+			(footprint "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal")
+			(description "DC Barrel Jack with an internal switch")
+			(fields
+				(field
+					(name "Footprint") "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DC Barrel Jack with an internal switch")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Barrel_Jack_Switch")
+				(description "DC Barrel Jack with an internal switch")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "DC power barrel jack connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "BarrelJack*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f29ca25e-c227-4898-84d6-ae85ca6192cd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Cable header")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal")
+			(description "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_02x20_Odd_Even")
+				(description "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_2x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2d087d5e-f60d-44d0-86a8-a129aae1873f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "40")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "12n")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(description "Inductor")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ba14b4eb-7ec0-47d5-afd2-e8e08efdd62e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "SiSS27DN")
+			(footprint "Package_SO:Vishay_PowerPAK_1212-8_Single")
+			(datasheet "http://www.vishay.com/docs/62847/siss27dn.pdf")
+			(description "-50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:Vishay_PowerPAK_1212-8_Single")
+				(field
+					(name "Datasheet") "http://www.vishay.com/docs/62847/siss27dn.pdf")
+				(field
+					(name "Description") "-50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "SiSS27DN")
+				(description "-50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "P-Channel MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Vishay*PowerPAK*1212*Single*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c08a1d1d-0f9c-43d1-b357-9f4a8511b81b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1b3c5b0d-7b32-47e6-8141-635aa3e71f02")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "4k7")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1df8951f-e462-43d5-a979-d105c3beee37")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "4k7")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eacf9b9d-184d-486d-aac6-6ab571d38362")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e9e0f55c-de1d-4c17-b453-bccfb941856d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "TEST BUTTON")
+			(footprint "Button_Switch_SMD:SW_SPST_PTS645")
+			(description "Push button switch, generic, symbol, four pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_SPST_PTS645")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, symbol, four pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push_Dual")
+				(description "Push button switch, generic, symbol, four pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9655fff1-9529-4765-8f86-e46760092576")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "L7805")
+			(footprint "Package_TO_SOT_SMD:TO-252-2")
+			(datasheet "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+			(description "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:TO-252-2")
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+				(field
+					(name "Description") "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252")
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "L7805")
+				(description "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Voltage Regulator 1.5A Positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO?252* TO?263* TO?220*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9b1a737c-7dd6-4e50-821f-273c37e7aef0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "Teensy4.1")
+			(footprint "teensy:Teensy41")
+			(fields
+				(field
+					(name "Footprint") "teensy:Teensy41")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "teensy")
+				(part "Teensy4.1")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "23db72b1-d2f7-4aae-92d5-411b1e1c42a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "66")
+						)
+						(pin
+							(num "67")
+						)
+						(pin
+							(num "55")
+						)
+						(pin
+							(num "56")
+						)
+						(pin
+							(num "57")
+						)
+						(pin
+							(num "58")
+						)
+						(pin
+							(num "59")
+						)
+						(pin
+							(num "50")
+						)
+						(pin
+							(num "51")
+						)
+						(pin
+							(num "52")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "54")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "65")
+						)
+						(pin
+							(num "64")
+						)
+						(pin
+							(num "63")
+						)
+						(pin
+							(num "62")
+						)
+						(pin
+							(num "61")
+						)
+						(pin
+							(num "60")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "NEO-M8N")
+			(footprint "RF_GPS:ublox_NEO")
+			(datasheet "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf")
+			(description "GNSS Module NEO M8, VCC 2.7V to 3.6V")
+			(fields
+				(field
+					(name "Footprint") "RF_GPS:ublox_NEO")
+				(field
+					(name "Datasheet") "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf")
+				(field
+					(name "Description") "GNSS Module NEO M8, VCC 2.7V to 3.6V")
+			)
+			(libsource
+				(lib "RF_GPS")
+				(part "NEO-M8N")
+				(description "GNSS Module NEO M8, VCC 2.7V to 3.6V")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "ublox GPS GNSS module")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "ublox*NEO*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0c8277df-50a7-47b9-95c5-2a6fc348e8dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "CY8C9560A-24AXIT")
+			(footprint "Package_QFP:TQFP-100_12x12mm_P0.4mm")
+			(datasheet "CY8C9560A-24AXIT")
+			(fields
+				(field
+					(name "Footprint") "Package_QFP:TQFP-100_12x12mm_P0.4mm")
+				(field
+					(name "Datasheet") "CY8C9560A-24AXIT")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CY8C9560A")
+				(part "CY8C9560A-24AXIT")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "CY8C9560A-24AXIT")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TQFP-100 TQFP-100-M TQFP-100-L")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "63506ae8-4eaf-42ae-a68b-935889f3f23a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "95")
+						)
+						(pin
+							(num "97")
+						)
+						(pin
+							(num "99")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "81")
+						)
+						(pin
+							(num "79")
+						)
+						(pin
+							(num "77")
+						)
+						(pin
+							(num "74")
+						)
+						(pin
+							(num "72")
+						)
+						(pin
+							(num "70")
+						)
+						(pin
+							(num "69")
+						)
+						(pin
+							(num "68")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "62")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "82")
+						)
+						(pin
+							(num "83")
+						)
+						(pin
+							(num "67")
+						)
+						(pin
+							(num "66")
+						)
+						(pin
+							(num "64")
+						)
+						(pin
+							(num "63")
+						)
+						(pin
+							(num "59")
+						)
+						(pin
+							(num "58")
+						)
+						(pin
+							(num "57")
+						)
+						(pin
+							(num "56")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "52")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "54")
+						)
+						(pin
+							(num "55")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "86")
+						)
+						(pin
+							(num "87")
+						)
+						(pin
+							(num "88")
+						)
+						(pin
+							(num "89")
+						)
+						(pin
+							(num "90")
+						)
+						(pin
+							(num "91")
+						)
+						(pin
+							(num "92")
+						)
+						(pin
+							(num "93")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "65")
+						)
+						(pin
+							(num "84")
+						)
+						(pin
+							(num "85")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "MAX2679")
+			(footprint "Package_BGA:WLP-4_0.83x0.83mm_P0.4mm")
+			(datasheet "https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf")
+			(description "GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4")
+			(fields
+				(field
+					(name "Footprint") "Package_BGA:WLP-4_0.83x0.83mm_P0.4mm")
+				(field
+					(name "Datasheet") "https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf")
+				(field
+					(name "Description") "GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4")
+			)
+			(libsource
+				(lib "RF_Amplifier")
+				(part "MAX2679")
+				(description "GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "hardware_challenge.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RF GAIN BLOCK")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "WLP*0.83x0.83mm*P0.4mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "50ebe845-a32d-4011-8929-3e57d413909b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "B1")
+						)
+						(pin
+							(num "A1")
+						)
+						(pin
+							(num "B2")
+						)
+						(pin
+							(num "A2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "CY8C9560A")
+			(part "CY8C9560A-24AXIT")
+			(docs "CY8C9560A-24AXIT")
+			(footprints
+				(fp "TQFP-100")
+				(fp "TQFP-100-M")
+				(fp "TQFP-100-L")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "CY8C9560A-24AXIT")
+				(field
+					(name "Footprint") "TQFP-100")
+				(field
+					(name "Datasheet") "CY8C9560A-24AXIT")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "3")
+					(name "GPort0_Bit3_PWM1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GPort0_Bit4_PWM7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "GPort0_Bit5_PWM5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GPort0_Bit6_PWM3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "GPort0_Bit7_PWM1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GPort3_Bit0_PWM7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "GPort3_Bit1_PWM5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GPort3_Bit2_PWM3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GPort3_Bit3_PWM1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "Vss")
+					(type "power_in")
+				)
+				(pin
+					(num "16")
+					(name "GPort3_Bit4_PWM15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "GPort3_Bit5_PWM13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GPort3_Bit6_PWM11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "GPort3_Bit7_PWM9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "GPort5_Bit7_PWM15")
+					(type "unspecified")
+				)
+				(pin
+					(num "21")
+					(name "GPort5_Bit6_PWM13")
+					(type "unspecified")
+				)
+				(pin
+					(num "22")
+					(name "GPort5_Bit2_PWM11")
+					(type "unspecified")
+				)
+				(pin
+					(num "23")
+					(name "GPort5_Bit3_PWM9")
+					(type "unspecified")
+				)
+				(pin
+					(num "24")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "28")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "GPort2_Bit3_PWM11/A1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "A0")
+					(type "input")
+				)
+				(pin
+					(num "32")
+					(name "Vdd")
+					(type "power_in")
+				)
+				(pin
+					(num "34")
+					(name "Vss")
+					(type "power_in")
+				)
+				(pin
+					(num "36")
+					(name "GPort7_Bit7_PWM15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "GPort7_Bit6_PWM14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "GPort7_Bit5_PWM13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "39")
+					(name "GPort7_Bit4_PWM12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "40")
+					(name "GPort7_Bit3_PWM11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "41")
+					(name "GPort7_Bit2_PWM10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "42")
+					(name "GPort7_Bit1_PWM9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "43")
+					(name "GPort7_Bit0_PWM8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "44")
+					(name "GPort2_Bit2_PWM8/WD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "45")
+					(name "INT")
+					(type "output")
+				)
+				(pin
+					(num "46")
+					(name "GPort2_Bit1_PWM12/A2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "47")
+					(name "GPort2_Bit0_PWM14/A3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "52")
+					(name "GPort5_Bit1_PWM8")
+					(type "unspecified")
+				)
+				(pin
+					(num "53")
+					(name "GPort5_Bit0_PWM10")
+					(type "unspecified")
+				)
+				(pin
+					(num "54")
+					(name "GPort5_Bit4_PWM12")
+					(type "unspecified")
+				)
+				(pin
+					(num "55")
+					(name "GPort5_Bit5_PWM14")
+					(type "unspecified")
+				)
+				(pin
+					(num "56")
+					(name "GPort4_Bit7_PWM8")
+					(type "unspecified")
+				)
+				(pin
+					(num "57")
+					(name "GPort4_Bit6_PWM10")
+					(type "unspecified")
+				)
+				(pin
+					(num "58")
+					(name "GPort4_Bit5_PWM12")
+					(type "unspecified")
+				)
+				(pin
+					(num "59")
+					(name "GPort4_Bit4_PWM14")
+					(type "unspecified")
+				)
+				(pin
+					(num "62")
+					(name "RESET_N")
+					(type "input")
+				)
+				(pin
+					(num "63")
+					(name "GPort4_Bit3_PWM0")
+					(type "unspecified")
+				)
+				(pin
+					(num "64")
+					(name "GPort4_Bit2_PWM2")
+					(type "unspecified")
+				)
+				(pin
+					(num "65")
+					(name "Vss")
+					(type "power_in")
+				)
+				(pin
+					(num "66")
+					(name "GPort4_Bit1_PWM4")
+					(type "unspecified")
+				)
+				(pin
+					(num "67")
+					(name "GPort4_Bit0_PWM6")
+					(type "unspecified")
+				)
+				(pin
+					(num "68")
+					(name "GPort1_Bit7_PWM0/A4")
+					(type "unspecified")
+				)
+				(pin
+					(num "69")
+					(name "GPort1_Bit6_PWM2/A5")
+					(type "unspecified")
+				)
+				(pin
+					(num "70")
+					(name "GPort1_Bit5_PWM4/A6")
+					(type "unspecified")
+				)
+				(pin
+					(num "72")
+					(name "GPort1_Bit4_PWM6")
+					(type "unspecified")
+				)
+				(pin
+					(num "74")
+					(name "GPort1_Bit3_PWM0")
+					(type "unspecified")
+				)
+				(pin
+					(num "77")
+					(name "GPort1_Bit2_PWM2")
+					(type "unspecified")
+				)
+				(pin
+					(num "79")
+					(name "GPort1_Bit1_PWM4")
+					(type "unspecified")
+				)
+				(pin
+					(num "81")
+					(name "GPort1_Bit0_PWM6")
+					(type "unspecified")
+				)
+				(pin
+					(num "82")
+					(name "Vdd")
+					(type "power_in")
+				)
+				(pin
+					(num "83")
+					(name "Vdd")
+					(type "power_in")
+				)
+				(pin
+					(num "84")
+					(name "Vss")
+					(type "power_in")
+				)
+				(pin
+					(num "85")
+					(name "Vss")
+					(type "power_in")
+				)
+				(pin
+					(num "86")
+					(name "GPort6_Bit0_PWM0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "87")
+					(name "GPort6_Bit1_PWM1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "88")
+					(name "GPort6_Bit2_PWM2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "89")
+					(name "GPort6_Bit3_PWM3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "90")
+					(name "GPort6_Bit4_PWM4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "91")
+					(name "GPort6_Bit5_PWM5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "92")
+					(name "GPort6_Bit6_PWM6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "93")
+					(name "GPort6_Bit7_PWM7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "95")
+					(name "GPort0_Bit0_PWM7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "97")
+					(name "GPort0_Bit1_PWM5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "99")
+					(name "GPort0_Bit2_PWM3")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Barrel_Jack_Switch")
+			(description "DC Barrel Jack with an internal switch")
+			(footprints
+				(fp "BarrelJack*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Barrel_Jack_Switch")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DC Barrel Jack with an internal switch")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_02x20_Odd_Even")
+			(description "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_2x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_02x20_Odd_Even")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "Pin_13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "Pin_14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "Pin_15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "Pin_16")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "Pin_17")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "Pin_18")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "Pin_19")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "Pin_20")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "Pin_21")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "Pin_22")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "Pin_23")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "Pin_24")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "Pin_25")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "Pin_26")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "Pin_27")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "Pin_28")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "Pin_29")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "Pin_30")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "Pin_31")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "Pin_32")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "Pin_33")
+					(type "passive")
+				)
+				(pin
+					(num "34")
+					(name "Pin_34")
+					(type "passive")
+				)
+				(pin
+					(num "35")
+					(name "Pin_35")
+					(type "passive")
+				)
+				(pin
+					(num "36")
+					(name "Pin_36")
+					(type "passive")
+				)
+				(pin
+					(num "37")
+					(name "Pin_37")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "Pin_38")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "Pin_39")
+					(type "passive")
+				)
+				(pin
+					(num "40")
+					(name "Pin_40")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Antenna")
+			(description "Antenna")
+			(fields
+				(field
+					(name "Reference") "AE")
+				(field
+					(name "Value") "Antenna")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Antenna")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED_ABGR")
+			(description "RGB LED, anode/blue/green/red")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED_ABGR")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "RGB LED, anode/blue/green/red")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "BK")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "GK")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "RK")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Diode")
+			(part "PMEG10020ELR")
+			(description "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W")
+			(docs "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf")
+			(footprints
+				(fp "Nexperia*CFP3*SOD?123W*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "PMEG10020ELR")
+				(field
+					(name "Footprint") "Diode_SMD:Nexperia_CFP3_SOD-123W")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf")
+				(field
+					(name "Description") "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Diode")
+			(part "SMAJ16A")
+			(description "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			(docs "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+			(footprints
+				(fp "D*SMA*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "SMAJ16A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet") "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+				(field
+					(name "Description") "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RF_Amplifier")
+			(part "MAX2679")
+			(description "GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4")
+			(docs "https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf")
+			(footprints
+				(fp "WLP*0.83x0.83mm*P0.4mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MAX2679")
+				(field
+					(name "Footprint") "Package_BGA:WLP-4_0.83x0.83mm_P0.4mm")
+				(field
+					(name "Datasheet") "https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf")
+				(field
+					(name "Description") "GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4")
+			)
+			(pins
+				(pin
+					(num "A1")
+					(name "Vcc")
+					(type "power_in")
+				)
+				(pin
+					(num "A2")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "B1")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "B2")
+					(name "G")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "RF_GPS")
+			(part "NEO-M8N")
+			(description "GNSS Module NEO M8, VCC 2.7V to 3.6V")
+			(docs "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf")
+			(footprints
+				(fp "ublox*NEO*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "NEO-M8N")
+				(field
+					(name "Footprint") "RF_GPS:ublox_NEO")
+				(field
+					(name "Datasheet") "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf")
+				(field
+					(name "Description") "GNSS Module NEO M8, VCC 2.7V to 3.6V")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~{SAFEBOOT}")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "D_SEL")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "TIMEPULSE")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "EXTINT")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "USB_DM")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "USB_DP")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "VDD_USB")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "~{RESET}")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "VCC_RF")
+					(type "power_out")
+				)
+				(pin
+					(num "10")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "RF_IN")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "LNA_EN")
+					(type "output")
+				)
+				(pin
+					(num "15")
+					(name "RESERVED")
+					(type "no_connect")
+				)
+				(pin
+					(num "16")
+					(name "RESERVED")
+					(type "no_connect")
+				)
+				(pin
+					(num "17")
+					(name "RESERVED")
+					(type "no_connect")
+				)
+				(pin
+					(num "18")
+					(name "SDA/~{SPI_CS}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "SCL/SPI_CLK")
+					(type "input")
+				)
+				(pin
+					(num "20")
+					(name "TXD/SPI_MISO")
+					(type "output")
+				)
+				(pin
+					(num "21")
+					(name "RXD/SPI_MOSI")
+					(type "input")
+				)
+				(pin
+					(num "22")
+					(name "V_BCKP")
+					(type "power_in")
+				)
+				(pin
+					(num "23")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "24")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "L7805")
+			(description "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252")
+			(docs "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+			(footprints
+				(fp "TO?252*")
+				(fp "TO?263*")
+				(fp "TO?220*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "L7805")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+				(field
+					(name "Description") "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Push_Dual")
+			(description "Push button switch, generic, symbol, four pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push_Dual")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, symbol, four pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_FET")
+			(part "SiSS27DN")
+			(description "-50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single")
+			(docs "http://www.vishay.com/docs/62847/siss27dn.pdf")
+			(footprints
+				(fp "Vishay*PowerPAK*1212*Single*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "SiSS27DN")
+				(field
+					(name "Footprint") "Package_SO:Vishay_PowerPAK_1212-8_Single")
+				(field
+					(name "Datasheet") "http://www.vishay.com/docs/62847/siss27dn.pdf")
+				(field
+					(name "Description") "-50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "teensy")
+			(part "Teensy4.1")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "Teensy4.1")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "0_RX1_CRX2_CS1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "1_TX1_CTX2_MISO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "2_OUT2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "3_LRCLK2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "4_BCLK2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "5_IN2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "6_OUT1D")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "7_RX2_OUT1A")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "8_TX2_IN1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "9_OUT1C")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "10_CS_MQSR")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "11_MOSI_CTX1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "12_MISO_MQSL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "3V3")
+					(type "power_in")
+				)
+				(pin
+					(num "16")
+					(name "24_A10_TX6_SCL2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "25_A11_RX6_SDA2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "26_A12_MOSI1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "27_A13_SCK1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "28_RX7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "29_TX7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "30_CRX3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "31_CTX3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "32_OUT1B")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "33_MCLK2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "34_RX8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "35_TX8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "36_CS")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "37_CS")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "38_CS1_IN1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "31")
+					(name "39_MISO1_OUT1A")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "40_A16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "41_A17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "35")
+					(name "13_SCK_LED")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "14_A0_TX3_SPDIF_OUT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "15_A1_RX3_SPDIF_IN")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "16_A2_RX4_SCL1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "39")
+					(name "17_A3_TX4_SDA1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "40")
+					(name "18_A4_SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "41")
+					(name "19_A5_SCL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "42")
+					(name "20_A6_TX5_LRCLK1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "43")
+					(name "21_A7_RX5_BCLK1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "44")
+					(name "22_A8_CTX1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "45")
+					(name "23_A9_CRX1_MCLK1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "46")
+					(name "3V3")
+					(type "output")
+				)
+				(pin
+					(num "47")
+					(name "GND")
+					(type "output")
+				)
+				(pin
+					(num "48")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "49")
+					(name "VUSB")
+					(type "power_out")
+				)
+				(pin
+					(num "50")
+					(name "VBAT")
+					(type "power_in")
+				)
+				(pin
+					(num "51")
+					(name "3V3")
+					(type "power_in")
+				)
+				(pin
+					(num "52")
+					(name "GND")
+					(type "input")
+				)
+				(pin
+					(num "53")
+					(name "PROGRAM")
+					(type "input")
+				)
+				(pin
+					(num "54")
+					(name "ON_OFF")
+					(type "input")
+				)
+				(pin
+					(num "55")
+					(name "5V")
+					(type "power_out")
+				)
+				(pin
+					(num "56")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "57")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "58")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "59")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "60")
+					(name "R+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "61")
+					(name "LED")
+					(type "bidirectional")
+				)
+				(pin
+					(num "62")
+					(name "T-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "63")
+					(name "T+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "64")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "65")
+					(name "R-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "66")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "67")
+					(name "D+")
+					(type "bidirectional")
+				)
+			)
+		)
+	)
+	(libraries)
+	(nets
+		(net
+			(code "1")
+			(name "+3.3V")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "15")
+				(pinfunction "3V3_15")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "46")
+				(pinfunction "3V3_46")
+				(pintype "output")
+			)
+			(node
+				(ref "U3")
+				(pin "22")
+				(pinfunction "V_BCKP_22")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "23")
+				(pinfunction "VCC_23")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "32")
+				(pinfunction "Vdd_32")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "82")
+				(pinfunction "Vdd_82")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "83")
+				(pinfunction "Vdd_83")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "48")
+				(pinfunction "VIN_48")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "+12V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "S_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "4")
+			(name "BTN_TEST")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "8_TX2_IN1_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "5")
+			(name "CBL_0")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "95")
+				(pinfunction "GPort0_Bit0_PWM7_95")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "CBL_1")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "97")
+				(pinfunction "GPort0_Bit1_PWM5_97")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "CBL_2")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "99")
+				(pinfunction "GPort0_Bit2_PWM3_99")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "CBL_3")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "GPort0_Bit3_PWM1_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "9")
+			(name "CBL_4")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "GPort0_Bit4_PWM7_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "CBL_5")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "GPort0_Bit5_PWM5_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "CBL_6")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "GPort0_Bit6_PWM3_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "CBL_7")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "7")
+				(pinfunction "GPort0_Bit7_PWM1_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "CBL_8")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "81")
+				(pinfunction "GPort1_Bit0_PWM6_81")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "14")
+			(name "CBL_9")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "79")
+				(pinfunction "GPort1_Bit1_PWM4_79")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "15")
+			(name "CBL_10")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "77")
+				(pinfunction "GPort1_Bit2_PWM2_77")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "16")
+			(name "CBL_11")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "74")
+				(pinfunction "GPort1_Bit3_PWM0_74")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "17")
+			(name "CBL_12")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "72")
+				(pinfunction "GPort1_Bit4_PWM6_72")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "18")
+			(name "CBL_13")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "70")
+				(pinfunction "GPort1_Bit5_PWM4/A6_70")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "19")
+			(name "CBL_14")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "15")
+				(pinfunction "Pin_15_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "69")
+				(pinfunction "GPort1_Bit6_PWM2/A5_69")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "20")
+			(name "CBL_15")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "16")
+				(pinfunction "Pin_16_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "68")
+				(pinfunction "GPort1_Bit7_PWM0/A4_68")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "21")
+			(name "CBL_16")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "17")
+				(pinfunction "Pin_17_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "47")
+				(pinfunction "GPort2_Bit0_PWM14/A3_47")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "22")
+			(name "CBL_17")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "18")
+				(pinfunction "Pin_18_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "46")
+				(pinfunction "GPort2_Bit1_PWM12/A2_46")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "CBL_18")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "19")
+				(pinfunction "Pin_19_19")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "44")
+				(pinfunction "GPort2_Bit2_PWM8/WD_44")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "24")
+			(name "CBL_19")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "20")
+				(pinfunction "Pin_20_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "29")
+				(pinfunction "GPort2_Bit3_PWM11/A1_29")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "25")
+			(name "CBL_20")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "21")
+				(pinfunction "Pin_21_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "8")
+				(pinfunction "GPort3_Bit0_PWM7_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "CBL_21")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "22")
+				(pinfunction "Pin_22_22")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "9")
+				(pinfunction "GPort3_Bit1_PWM5_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "CBL_22")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "23")
+				(pinfunction "Pin_23_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "10")
+				(pinfunction "GPort3_Bit2_PWM3_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "28")
+			(name "CBL_23")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "24")
+				(pinfunction "Pin_24_24")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "11")
+				(pinfunction "GPort3_Bit3_PWM1_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "CBL_24")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "25")
+				(pinfunction "Pin_25_25")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "16")
+				(pinfunction "GPort3_Bit4_PWM15_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "CBL_25")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "26")
+				(pinfunction "Pin_26_26")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "17")
+				(pinfunction "GPort3_Bit5_PWM13_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
+			(name "CBL_26")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "27")
+				(pinfunction "Pin_27_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "18")
+				(pinfunction "GPort3_Bit6_PWM11_18")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "CBL_27")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "28")
+				(pinfunction "Pin_28_28")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "19")
+				(pinfunction "GPort3_Bit7_PWM9_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "CBL_28")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "29")
+				(pinfunction "Pin_29_29")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "67")
+				(pinfunction "GPort4_Bit0_PWM6_67")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "34")
+			(name "CBL_29")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "30")
+				(pinfunction "Pin_30_30")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "66")
+				(pinfunction "GPort4_Bit1_PWM4_66")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "35")
+			(name "CBL_30")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "31")
+				(pinfunction "Pin_31_31")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "64")
+				(pinfunction "GPort4_Bit2_PWM2_64")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "36")
+			(name "CBL_31")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "32")
+				(pinfunction "Pin_32_32")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "63")
+				(pinfunction "GPort4_Bit3_PWM0_63")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "37")
+			(name "CBL_32")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "33")
+				(pinfunction "Pin_33_33")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "59")
+				(pinfunction "GPort4_Bit4_PWM14_59")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "38")
+			(name "CBL_33")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "34")
+				(pinfunction "Pin_34_34")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "58")
+				(pinfunction "GPort4_Bit5_PWM12_58")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "39")
+			(name "CBL_34")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "35")
+				(pinfunction "Pin_35_35")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "57")
+				(pinfunction "GPort4_Bit6_PWM10_57")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "40")
+			(name "CBL_35")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "36")
+				(pinfunction "Pin_36_36")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "56")
+				(pinfunction "GPort4_Bit7_PWM8_56")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "41")
+			(name "CBL_36")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "37")
+				(pinfunction "Pin_37_37")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "53")
+				(pinfunction "GPort5_Bit0_PWM10_53")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "42")
+			(name "CBL_37")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "38")
+				(pinfunction "Pin_38_38")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "52")
+				(pinfunction "GPort5_Bit1_PWM8_52")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "43")
+			(name "CBL_38")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "39")
+				(pinfunction "Pin_39_39")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "22")
+				(pinfunction "GPort5_Bit2_PWM11_22")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "44")
+			(name "CBL_39")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "40")
+				(pinfunction "Pin_40_40")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "23")
+				(pinfunction "GPort5_Bit3_PWM9_23")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "45")
+			(name "CY_INT")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "45")
+				(pinfunction "23_A9_CRX1_MCLK1_45")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "45")
+				(pinfunction "INT_45")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "46")
+			(name "CY_RST_N")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "44")
+				(pinfunction "22_A8_CTX1_44")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "62")
+				(pinfunction "RESET_N_62")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "47")
+			(name "CY_SCL")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "16")
+				(pinfunction "24_A10_TX6_SCL2_16")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "24")
+				(pinfunction "SCL_24")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "48")
+			(name "CY_SDA")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "17")
+				(pinfunction "25_A11_RX6_SDA2_17")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "28")
+				(pinfunction "SDA_28")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "49")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "34")
+				(pinfunction "GND_34")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "47")
+				(pinfunction "GND_47")
+				(pintype "output")
+			)
+			(node
+				(ref "U3")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "12")
+				(pinfunction "GND_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "24")
+				(pinfunction "GND_24")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "7")
+				(pinfunction "VDD_USB_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "15")
+				(pinfunction "Vss_15")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "30")
+				(pinfunction "A0_30")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "34")
+				(pinfunction "Vss_34")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "65")
+				(pinfunction "Vss_65")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "84")
+				(pinfunction "Vss_84")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "85")
+				(pinfunction "Vss_85")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "B2")
+				(pinfunction "G_B2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "50")
+			(name "LED_B")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "BK_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "7_RX2_OUT1A_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "51")
+			(name "LED_G")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "3")
+				(pinfunction "GK_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "6_OUT1D_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "52")
+			(name "LED_R")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "4")
+				(pinfunction "RK_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "5_IN2_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "53")
+			(name "Net-(AE1-A)")
+			(class "Default")
+			(node
+				(ref "AE1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "B1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "54")
+			(name "Net-(C5-Pad2)")
+			(class "Default")
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "Net-(D1-A1)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "5")
+				(pinfunction "D_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "56")
+			(name "Net-(D2-A)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "4")
+				(pinfunction "G_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "57")
+			(name "Net-(L1-Pad2)")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "A2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "58")
+			(name "Net-(U3-RF_IN)")
+			(class "Default")
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "11")
+				(pinfunction "RF_IN_11")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "59")
+			(name "Net-(U3-VCC_RF)")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "9")
+				(pinfunction "VCC_RF_9")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U5")
+				(pin "A1")
+				(pinfunction "Vcc_A1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "60")
+			(name "UBX-RST_N")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "4_BCLK2_6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U3")
+				(pin "8")
+				(pinfunction "~{RESET}_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "61")
+			(name "UBX-RXD")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "0_RX1_CRX2_CS1_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U3")
+				(pin "21")
+				(pinfunction "RXD/SPI_MOSI_21")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "62")
+			(name "UBX-SAFEBOOT")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "3_LRCLK2_5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "~{SAFEBOOT}_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "63")
+			(name "UBX-TIMEPULSE")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "2_OUT2_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "TIMEPULSE_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "64")
+			(name "UBX-TXD")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "1_TX1_CTX2_MISO1_3")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U3")
+				(pin "20")
+				(pinfunction "TXD/SPI_MISO_20")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(U2-3V3-Pad51)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "51")
+				(pinfunction "3V3_51")
+				(pintype "power_in+no_connect")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(U2-5V-Pad55)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "55")
+				(pinfunction "5V_55")
+				(pintype "power_out+no_connect")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(U2-9_OUT1C-Pad11)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "9_OUT1C_11")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(U2-10_CS_MQSR-Pad12)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "10_CS_MQSR_12")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(U2-11_MOSI_CTX1-Pad13)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "11_MOSI_CTX1_13")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(U2-12_MISO_MQSL-Pad14)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "12_MISO_MQSL_14")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(U2-13_SCK_LED-Pad35)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "35")
+				(pinfunction "13_SCK_LED_35")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(U2-14_A0_TX3_SPDIF_OUT-Pad36)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "36")
+				(pinfunction "14_A0_TX3_SPDIF_OUT_36")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(U2-15_A1_RX3_SPDIF_IN-Pad37)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "37")
+				(pinfunction "15_A1_RX3_SPDIF_IN_37")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(U2-16_A2_RX4_SCL1-Pad38)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "38")
+				(pinfunction "16_A2_RX4_SCL1_38")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(U2-17_A3_TX4_SDA1-Pad39)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "39")
+				(pinfunction "17_A3_TX4_SDA1_39")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(U2-18_A4_SDA-Pad40)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "40")
+				(pinfunction "18_A4_SDA_40")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(U2-19_A5_SCL-Pad41)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "41")
+				(pinfunction "19_A5_SCL_41")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(U2-20_A6_TX5_LRCLK1-Pad42)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "42")
+				(pinfunction "20_A6_TX5_LRCLK1_42")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "79")
+			(name "unconnected-(U2-21_A7_RX5_BCLK1-Pad43)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "43")
+				(pinfunction "21_A7_RX5_BCLK1_43")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "80")
+			(name "unconnected-(U2-26_A12_MOSI1-Pad18)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "18")
+				(pinfunction "26_A12_MOSI1_18")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(U2-27_A13_SCK1-Pad19)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "19")
+				(pinfunction "27_A13_SCK1_19")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(U2-28_RX7-Pad20)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "20")
+				(pinfunction "28_RX7_20")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "83")
+			(name "unconnected-(U2-29_TX7-Pad21)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "21")
+				(pinfunction "29_TX7_21")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "84")
+			(name "unconnected-(U2-30_CRX3-Pad22)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "22")
+				(pinfunction "30_CRX3_22")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "85")
+			(name "unconnected-(U2-31_CTX3-Pad23)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "23")
+				(pinfunction "31_CTX3_23")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(U2-32_OUT1B-Pad24)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "24")
+				(pinfunction "32_OUT1B_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(U2-33_MCLK2-Pad25)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "25")
+				(pinfunction "33_MCLK2_25")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(U2-34_RX8-Pad26)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "26")
+				(pinfunction "34_RX8_26")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(U2-35_TX8-Pad27)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "27")
+				(pinfunction "35_TX8_27")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(U2-36_CS-Pad28)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "28")
+				(pinfunction "36_CS_28")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "91")
+			(name "unconnected-(U2-37_CS-Pad29)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "29")
+				(pinfunction "37_CS_29")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "92")
+			(name "unconnected-(U2-38_CS1_IN1-Pad30)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "30")
+				(pinfunction "38_CS1_IN1_30")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "93")
+			(name "unconnected-(U2-39_MISO1_OUT1A-Pad31)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "31")
+				(pinfunction "39_MISO1_OUT1A_31")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "94")
+			(name "unconnected-(U2-40_A16-Pad32)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "32")
+				(pinfunction "40_A16_32")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "95")
+			(name "unconnected-(U2-41_A17-Pad33)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "33")
+				(pinfunction "41_A17_33")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "96")
+			(name "unconnected-(U2-D+-Pad57)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "57")
+				(pinfunction "D+_57")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "97")
+			(name "unconnected-(U2-D+-Pad67)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "67")
+				(pinfunction "D+_67")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "98")
+			(name "unconnected-(U2-D--Pad56)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "56")
+				(pinfunction "D-_56")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "99")
+			(name "unconnected-(U2-D--Pad66)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "66")
+				(pinfunction "D-_66")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "100")
+			(name "unconnected-(U2-GND-Pad52)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "52")
+				(pinfunction "GND_52")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "101")
+			(name "unconnected-(U2-GND-Pad58)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "58")
+				(pinfunction "GND_58")
+				(pintype "power_in+no_connect")
+			)
+		)
+		(net
+			(code "102")
+			(name "unconnected-(U2-GND-Pad59)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "59")
+				(pinfunction "GND_59")
+				(pintype "power_in+no_connect")
+			)
+		)
+		(net
+			(code "103")
+			(name "unconnected-(U2-GND-Pad64)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "64")
+				(pinfunction "GND_64")
+				(pintype "power_in+no_connect")
+			)
+		)
+		(net
+			(code "104")
+			(name "unconnected-(U2-LED-Pad61)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "61")
+				(pinfunction "LED_61")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "105")
+			(name "unconnected-(U2-ON_OFF-Pad54)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "54")
+				(pinfunction "ON_OFF_54")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "106")
+			(name "unconnected-(U2-PROGRAM-Pad53)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "53")
+				(pinfunction "PROGRAM_53")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "107")
+			(name "unconnected-(U2-R+-Pad60)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "60")
+				(pinfunction "R+_60")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "108")
+			(name "unconnected-(U2-R--Pad65)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "65")
+				(pinfunction "R-_65")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "109")
+			(name "unconnected-(U2-T+-Pad63)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "63")
+				(pinfunction "T+_63")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "110")
+			(name "unconnected-(U2-T--Pad62)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "62")
+				(pinfunction "T-_62")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "111")
+			(name "unconnected-(U2-VBAT-Pad50)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "50")
+				(pinfunction "VBAT_50")
+				(pintype "power_in+no_connect")
+			)
+		)
+		(net
+			(code "112")
+			(name "unconnected-(U2-VUSB-Pad49)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "49")
+				(pinfunction "VUSB_49")
+				(pintype "power_out+no_connect")
+			)
+		)
+		(net
+			(code "113")
+			(name "unconnected-(U3-D_SEL-Pad2)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "D_SEL_2")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "114")
+			(name "unconnected-(U3-EXTINT-Pad4)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "EXTINT_4")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "115")
+			(name "unconnected-(U3-LNA_EN-Pad14)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "14")
+				(pinfunction "LNA_EN_14")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "116")
+			(name "unconnected-(U3-RESERVED-Pad15)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "15")
+				(pinfunction "RESERVED_15")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "117")
+			(name "unconnected-(U3-RESERVED-Pad16)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "16")
+				(pinfunction "RESERVED_16")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "118")
+			(name "unconnected-(U3-RESERVED-Pad17)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "17")
+				(pinfunction "RESERVED_17")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "119")
+			(name "unconnected-(U3-SCL{slash}SPI_CLK-Pad19)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "19")
+				(pinfunction "SCL/SPI_CLK_19")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "120")
+			(name "unconnected-(U3-SDA{slash}~{SPI_CS}-Pad18)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "18")
+				(pinfunction "SDA/~{SPI_CS}_18")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "121")
+			(name "unconnected-(U3-USB_DM-Pad5)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "USB_DM_5")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "122")
+			(name "unconnected-(U3-USB_DP-Pad6)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "USB_DP_6")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "123")
+			(name "unconnected-(U4-GPort5_Bit4_PWM12-Pad54)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "54")
+				(pinfunction "GPort5_Bit4_PWM12_54")
+				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "124")
+			(name "unconnected-(U4-GPort5_Bit5_PWM14-Pad55)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "55")
+				(pinfunction "GPort5_Bit5_PWM14_55")
+				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "125")
+			(name "unconnected-(U4-GPort5_Bit6_PWM13-Pad21)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "21")
+				(pinfunction "GPort5_Bit6_PWM13_21")
+				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "126")
+			(name "unconnected-(U4-GPort5_Bit7_PWM15-Pad20)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "20")
+				(pinfunction "GPort5_Bit7_PWM15_20")
+				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "127")
+			(name "unconnected-(U4-GPort6_Bit0_PWM0-Pad86)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "86")
+				(pinfunction "GPort6_Bit0_PWM0_86")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "128")
+			(name "unconnected-(U4-GPort6_Bit1_PWM1-Pad87)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "87")
+				(pinfunction "GPort6_Bit1_PWM1_87")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "129")
+			(name "unconnected-(U4-GPort6_Bit2_PWM2-Pad88)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "88")
+				(pinfunction "GPort6_Bit2_PWM2_88")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "130")
+			(name "unconnected-(U4-GPort6_Bit3_PWM3-Pad89)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "89")
+				(pinfunction "GPort6_Bit3_PWM3_89")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "131")
+			(name "unconnected-(U4-GPort6_Bit4_PWM4-Pad90)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "90")
+				(pinfunction "GPort6_Bit4_PWM4_90")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "132")
+			(name "unconnected-(U4-GPort6_Bit5_PWM5-Pad91)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "91")
+				(pinfunction "GPort6_Bit5_PWM5_91")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "133")
+			(name "unconnected-(U4-GPort6_Bit6_PWM6-Pad92)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "92")
+				(pinfunction "GPort6_Bit6_PWM6_92")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "134")
+			(name "unconnected-(U4-GPort6_Bit7_PWM7-Pad93)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "93")
+				(pinfunction "GPort6_Bit7_PWM7_93")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "135")
+			(name "unconnected-(U4-GPort7_Bit0_PWM8-Pad43)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "43")
+				(pinfunction "GPort7_Bit0_PWM8_43")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "136")
+			(name "unconnected-(U4-GPort7_Bit1_PWM9-Pad42)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "42")
+				(pinfunction "GPort7_Bit1_PWM9_42")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "137")
+			(name "unconnected-(U4-GPort7_Bit2_PWM10-Pad41)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "41")
+				(pinfunction "GPort7_Bit2_PWM10_41")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "138")
+			(name "unconnected-(U4-GPort7_Bit3_PWM11-Pad40)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "40")
+				(pinfunction "GPort7_Bit3_PWM11_40")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "139")
+			(name "unconnected-(U4-GPort7_Bit4_PWM12-Pad39)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "39")
+				(pinfunction "GPort7_Bit4_PWM12_39")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "140")
+			(name "unconnected-(U4-GPort7_Bit5_PWM13-Pad38)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "38")
+				(pinfunction "GPort7_Bit5_PWM13_38")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "141")
+			(name "unconnected-(U4-GPort7_Bit6_PWM14-Pad37)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "37")
+				(pinfunction "GPort7_Bit6_PWM14_37")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "142")
+			(name "unconnected-(U4-GPort7_Bit7_PWM15-Pad36)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "36")
+				(pinfunction "GPort7_Bit7_PWM15_36")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+	)
+)
