@@ -1,0 +1,55 @@
+FIRMWARE BUGS
+
+1. Inverted start-button logic. In loop(), "if (digitalRead(PIN_BTN_TEST) == LOW) return;" — the button is pulled HIGH normally and goes LOW when pressed, so as written the tester runs continuously when the button is untouched and stops when you press it. Backwards.
+
+2. Pass/fail logic uses OR instead of AND. The "passed" flag is set to true if ANY single pin (out of 40) matches its expected connectivity, instead of requiring ALL 40 to match. One correctly-wired pin marks the entire harness "PASSED" even if the other 39 are wrong.
+
+3. 32-bit integer shift overflow. "uint64_t output_mask = 1 << i;" uses a 32-bit int literal shifted by i, which is undefined/wrong once i >= 31. Pins ~31-39 of the 40-pin harness are never tested correctly. Needs to be "1ULL << i".
+
+4. Firmware assumes a contiguous bit-to-pin mapping on the I/O expander that doesn't match the real chip. Bits 0-19 correctly map to harness pins 0-19, but bits 20-23 are the chip's fixed I2C SCL/SDA pins (not usable GPIO), so pins 20-39 actually live 4 bits higher than where the firmware's loop expects them. This silently breaks testing for roughly the back half of the connector, independent of bug #3.
+
+5. Missing pinMode(OUTPUT) for the GPS SAFEBOOT/RESET control lines in setup(). Since they're never set to OUTPUT, the digitalWrite calls don't actually drive the GPS module — its boot/reset state is left undefined.
+
+6. Unbounded buffer write while parsing GPS NMEA sentences. The 64-byte receive buffer has no bounds check, so a malformed sentence can overflow it.
+
+7. The I2C GPIO expander is never actually released from reset. The reset sequence ends by holding the chip in reset (drives the line LOW and never sets it back HIGH) before trying to talk to it over I2C — so all communication with the expander happens while it's held in reset and can never succeed.
+
+8. No error checking anywhere on the I2C bus communication with the GPIO expander. If the bus fails for any reason, reads silently return garbage and writes are silently dropped, with nothing reporting the failure.
+
+9. No debounce or single-shot logic — the harness test re-runs and re-logs to the SD card every single main-loop iteration while triggered, flooding the log file with thousands of duplicate entries per second instead of logging once per test.
+
+SCHEMATIC BUGS
+
+10. No current-limiting resistor on the RGB status LED. The LED wires directly from the microcontroller pins to the LED with no series resistor anywhere in the design — this will overdrive the LED and/or the microcontroller pins.
+
+11. No pull-up or defined idle state on the GPS module's RESET/SAFEBOOT lines, so combined with bug #5, the GPS module's state floats whenever the microcontroller pin isn't actively driving it.
+
+12. The reverse-polarity-protection MOSFET has its Source and Drain wired backwards. As designed, the protected power rail is wired to the MOSFET's Source and the raw unprotected input to its Drain — which is backwards from the correct protection topology. As wired, the MOSFET's body diode blocks all forward current, so the board would never power up at all, even with correctly-connected 12V input.
+
+13. The GPS module's VDD_USB pin (a power-supply pin) is wired directly to GND instead of to +3.3V/VCC. This should be tied to the power rail per the module's own datasheet even when USB isn't used — grounding it outright is a wiring error that could stress or damage the module.
+
+14. The board's silkscreen advertises "Ethernet" and "USB Host" connector areas, but neither actually has a connector designed in — no RJ45/magnetics footprint and no USB-A host connector exist anywhere in the schematic, and none of the associated microcontroller pins are wired to anything. These are dead labels for features that don't exist.
+
+15. One of the two I2C pull-up resistors (for the SDA/data line) is wired to GND instead of +3.3V, making it a pull-down instead of a pull-up. This breaks I2C communication with the GPIO expander chip that the entire harness test depends on.
+
+PCB LAYOUT BUGS
+
+16. Wrong footprint/package used for the I2C GPIO expander chip (CY8C9560A). The PCB footprint has 100 pins, but the real chip only comes in a 68-pin package — the chip physically cannot be soldered onto this board as laid out.
+
+17. The status LED's common power pin has no copper connection on the PCB at all — it's an open circuit, even though the schematic says it should be connected. Combined with bug #10, the LED circuit is broken twice over.
+
+18. 199 individual trace-width violations — many traces are routed thinner than the board's own minimum width rule, including on the actual harness-testing signal lines themselves, the LED lines, and the GPS RF supply line. Real risk of unreliable manufacturing / open circuits.
+
+19. 510 individual clearance violations — many traces/pads are spaced closer together than the board's own minimum clearance rule (down to less than half the required spacing in places). Risk of solder bridges/shorts during manufacturing.
+
+20. Two components on the GPS front-end (a capacitor and the LNA amplifier chip) have physically overlapping courtyards, and one part's silkscreen is printed directly on top of the other's exposed copper pad — an assembly/manufacturing defect.
+
+21. Four board-edge clearance violations — the power input connector's mounting hole and two of the main microcontroller's power/ground pins sit closer to the board edge than the minimum required clearance, risking damage during manufacturing.
+
+22. Some silkscreen text on the board is smaller/thinner than what's reliably printable by most fabs.
+
+23. The TVS protection diode near the power input has no polarity marking on its silkscreen at all, unlike the other diodes nearby — an easy-to-place-backwards assembly risk.
+
+24. 83 total silkscreen-clipped-by-board-edge violations — 68 of them on the 40-pin cable header connector alone, meaning most of that connector's own pin-number labels are cut off by the board edge and effectively unreadable. This is the connector whose pin identity matters most for a harness tester.
+
+25. 32 separate disconnected/floating islands within what's supposed to be a single solid ground copper plane. Floating copper fragments like this don't function as a proper ground return path and can act as unintended antennas/EMI sources.
